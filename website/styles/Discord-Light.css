@@ -1,0 +1,57 @@
+/*header + background + cards*/
+.wrapper>.header {
+background-color: #FFFFFF;
+}
+/*header + background + cards*/
+.wrapper>.header {
+background-color: #FFFFFF;
+background-image: none;
+color: #4f545c;
+height: 48px;
+box-shadow: 0 1px 0 #eceeef, 0 2px 0 hsla(200,9%,93%,.25);
+}
+html {
+background-color: #FFFFFF;
+background-image: none;
+}
+/*logo*/
+.header > .logo-div > picture > .logo {
+height: 42px;
+}
+/*bottons*/
+.header>.header-nav>a>button {
+border-color: #4f545c;
+color: #4f545c;
+}
+.header>.userarea>a>button {
+border-color: #4f545c;
+color: #4f545c;
+}
+/*cards*/
+.nuxtBody{
+color: #4f545c;
+background-color: #FFFFFF;
+}
+/*drawer*/
+.toolbar__content, .toolbar__extension{
+background-color: #FFFFFF;
+background-image: none;
+color: #4f545c;
+height: 48px;
+}
+/*drawer*/
+.toolbar__content, .toolbar__extension{
+height: 48px !important;
+color: #4f545c;
+box-shadow: 0 1px 0 #eceeef, 0 2px 0 hsla(200,9%,93%,.25);
+}
+.application .theme--dark.list, .theme--dark .list {
+color: #4f545c;
+font-size: 18px;
+}
+.navigation-drawer{
+background-color: #FFFFFF;
+}
+.application .theme--dark.icon, .theme--dark .icon {
+color: #4f545c;
+}

@@ -1,0 +1,67 @@
+html {
+  background-color: #36393e;
+  background-image: none;
+}
+
+/*header + background + cards*/
+.wrapper > .header {
+  background-color: #36393f;
+  background-image: none;
+  color: #fff;
+  height: 48px;
+  box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
+}
+
+/*logo*/
+.header > logo-div > picture > .logo {
+  height: 42px;
+}
+
+/*bottons*/
+.header > .header-nav > a > button {
+  border-color: #fff;
+  color: #fff;
+}
+
+.header > .userarea > a > button {
+  border-color: #fff;
+  color: #fff;
+}
+
+/*cards*/
+.nuxtBody{
+  color: #fff;
+  background-color: #2f3136;
+}
+
+/*drawer*/
+.toolbar__content, .toolbar__extension{
+  background-color: #2C2F33;
+  background-image: none;
+  color: #4f545c;
+  height: 48px;
+}
+
+/*drawer*/
+.toolbar__content, .toolbar__extension{
+  height: 48px !important;
+  color: #fff;
+  box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
+}
+
+.application .theme--dark.list, .theme--dark .list {
+  color: #fff;
+  font-size: 18px;
+}
+
+.navigation-drawer{
+  background-color: #2C2F33;
+}
+
+.application .theme--dark.icon, .theme--dark .icon {
+  color: #fff;
+}
+
+.application .theme--dark.divider, .theme--dark .divider{
+  display:none;
+}

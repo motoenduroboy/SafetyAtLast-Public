@@ -1,3 +1,8 @@
+img.logo{
+    height: 114px;
+    margin-top: 0px;
+    border-style: none;
+}
 div#__nuxt {
     overflow: hidden;
 }
@@ -218,11 +223,6 @@ aside.navigation-drawer.navigation-drawer--fixed.navigation-drawer--open.navigat
 }
 .webp .header {
     background: url(../polygons.webp);
-}
-img.logo {
-    border-style: none;
-    height: 64px;
-    margin-top: 4px;
 }
 html {
     background: #2C2F33;

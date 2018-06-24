@@ -213,13 +213,15 @@ aside.navigation-drawer.navigation-drawer--fixed.navigation-drawer--open.navigat
     z-index: 1;
 }
 @media screen and (max-width: 700px) {
-    img.logo {
-        display: none;
-    }
     .wrapper>.header {
         height: 8vh;
         margin-bottom: 0px;
     }
+}
+@media screen and (max-width: 999px) {
+	img.logo{
+	display: none !Important;
+	}
 }
 .webp .header {
     background: url(../polygons.webp);

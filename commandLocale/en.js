@@ -2,6 +2,11 @@
 ONLY EDIT THE Description AND THE Options OTHERWISE IT WILL BREAK THE BOT
 */
 
+const commandLanguage = {
+    code: "en", // https://www.science.co.il/language/Locale-codes.php
+    comLang: {}
+}
+
 const Options = {
     bool: "<true | false>",
     number: "<number>",
@@ -21,7 +26,7 @@ const Options = {
     seconds: "<seconds>"
 }
 
-module.exports = {
+commandLanguage.comLang = {
     "Link": {
         "Name": "Link",
         "Description": "Displays all commands related to link moderation",
@@ -239,7 +244,7 @@ module.exports = {
                 "Options": "<warnings>",
                 "Description": "Disable or Enabled autokick (0 disables)"
             },
-            "Warn Limit Kan": {
+            "Warn Limit Ban": {
                 "Options": "<warnings>",
                 "Description": "Disable or Enabled autoban (0 disables)"
             }
@@ -843,12 +848,18 @@ module.exports = {
     },
     "Localisation": {
         "Name": "Localisation",
-        "Description": "Timezone 🕙",
+        "Description": "Timezone 🕙, Language 🇬🇧",
         "Commands": {
             "Timezone": {
                 "Options": "<IANA Timezone>",
                 "Description": "Set the timezone, responses from the bot containing a time will be in this time zone.\nList of [IANA Timezones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones), do not use ones labeled as deprecated!"
+            },
+            "Language": {
+                "Options": "<Language>",
+                "Description": "Set the language of the bot, english 🇬🇧, español (spanish) 🇪🇸"
             }
         }
     }
 };
+
+module.exports = commandLanguage;

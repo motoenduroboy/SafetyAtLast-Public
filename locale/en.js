@@ -269,6 +269,7 @@ Commands.Link.Reactions.Keep.Disable = 'I will no longer keep reactions instead 
 Commands.Link.Blacklist = {};
 Commands.Link.Blacklist.Add = (links) => `${links} added to the server blacklist`;
 Commands.Link.Blacklist.Remove = (links) => `${links} removed from the server blacklist`;
+Commands.Link.Blacklist.NotInBlacklist = `This link isn't in the blacklist`;
 Commands.Link.Blacklist.Cleared = `Server blacklist cleared`;
 Commands.Link.Blacklist.All = {};
 Commands.Link.Blacklist.All.Enabled = 'I will delete all links';

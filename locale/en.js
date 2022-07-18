@@ -343,6 +343,8 @@ Commands.Warn.Limit.Ban.LimitZero = `I will no longer ban users!`;
 Commands.Mute = {};
 Commands.Mute.WrongPerms = (user) => `The user ${user.username}#${user.discriminator} has not been muted because they are higher or equal rank than you!`;
 Commands.Mute.AlreadyMuted = `This user is already muted`;
+Commands.Mute.MuteSelf = `You can't mute yourself`;
+Commands.Mute.MuteBot = `You can't mute a bot`;
 Commands.Mute.SetRole = {};
 Commands.Mute.SetRole.Set = (role) => `Mute role set to ${role.name}`;
 

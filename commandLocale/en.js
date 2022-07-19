@@ -262,7 +262,7 @@ commandLanguage.comLang = {
                 "Options": Options.user,
                 "Description": "Unmutes a user"
             },
-            "Mute setrole": {
+            "Mute SetRole": {
                 "Options": Options.role,
                 "Description": "Sets the muted role"
             }

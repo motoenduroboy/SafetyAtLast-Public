@@ -180,7 +180,7 @@ commandLanguage.comLang = {
                 "Options": Options.bool,
                 "Description": "Enables/disables reactions"
             },
-            "Link reactions Keep": {
+            "Link Reactions Keep": {
                 "Options": Options.bool,
                 "Description": "If enabled the reactions will not be removed after some time"
             }

@@ -291,6 +291,8 @@ Commands.Link.Scanners = {};
 Commands.Link.Scanners.VT = {};
 Commands.Link.Scanners.VT.Enable = `VirusTotal scanner has been enabled`;
 Commands.Link.Scanners.VT.Disable = `VirusTotal scanner has been disabled`;
+Commands.Link.Scanners.VT.MinDetections = `Detections must be above 0`;
+Commands.Link.Scanners.VT.MaxDetections = `Detections must be less than or equal to 100`;
 Commands.Link.Scanners.VT.SetDetections = (num) => `VirusTotal minimum detections has been set to ${num}`;
 Commands.Link.Scanners.BLP = {};
 Commands.Link.Scanners.BLP.Enable = `BlockListProject database has been enabled`;

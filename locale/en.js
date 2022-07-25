@@ -353,6 +353,7 @@ Commands.Mute.WrongPerms = (user) => `The user ${user.username}#${user.discrimin
 Commands.Mute.AlreadyMuted = `This user is already muted`;
 Commands.Mute.MuteSelf = `You can't mute yourself`;
 Commands.Mute.MuteBot = `You can't mute a bot`;
+Commands.Mute.MuteMe = `You can't mute me`;
 Commands.Mute.SetRole = {};
 Commands.Mute.SetRole.Set = (role) => `Mute role set to ${role.name}`;
 

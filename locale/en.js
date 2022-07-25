@@ -356,6 +356,7 @@ Commands.Mute.MuteBot = `You can't mute a bot`;
 Commands.Mute.MuteMe = `You can't mute me`;
 Commands.Mute.SetRole = {};
 Commands.Mute.SetRole.Set = (role) => `Mute role set to ${role.name}`;
+Commands.Mute.SetRole.HigherRole = `This role is higher in the role hierarchy than then SafetyAtLast's highest role`;
 
 Commands.UnMute = {};
 Commands.UnMute.WrongPerms = (user) => `The user ${user.username}#${user.discriminator} has not been unmuted because they are higher or equal rank than you!`;

@@ -330,6 +330,8 @@ Commands.Link.Scanners.GSB.PotentiallyHarmful.Disable = `GoogleSafeBrowsing will
 
 Commands.Warn = {};
 Commands.Warn.WrongPerms = (user) => `The user ${user.username}#${user.discriminator} has not been warned because they are higher or equal rank than you!`;
+Commands.Warn.WarnBot = `You cannot warn a bot`;
+Commands.Warn.WarnSelf = `You cannot warn your self`;
 Commands.Warn.WarnedEmbed = {};
 Commands.Warn.WarnedEmbed.Description = (user, reason) => `${user.username}#${user.discriminator} has been warned for the following reason: \n ${reason}`;
 Commands.Warn.WarnedEmbed.Footer = (id) => `Warn ID: ${id}`;

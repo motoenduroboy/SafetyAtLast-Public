@@ -340,11 +340,11 @@ commandLanguage.comLang = {
                         "Options": Options.bypassAll,
                         "Description": "Bypasses a user, role or channel"
                     },
-                    "AutoMod AntiDupe Bypass remove": {
+                    "AutoMod AntiDupe Bypass Remove": {
                         "Options": Options.bypassAll,
                         "Description": "Removes a bypassed user, role or channel"
                     },
-                    "AutoMod AntiDupe Bypass clear": {
+                    "AutoMod AntiDupe Bypass Clear": {
                         "Options": "",
                         "Description": "Clears the bypass"
                     },
@@ -370,11 +370,11 @@ commandLanguage.comLang = {
                         "Options": Options.bypassAll,
                         "Description": "Bypasses a user, role or channel"
                     },
-                    "AutoMod AntiSpam Bypass remove": {
+                    "AutoMod AntiSpam Bypass Remove": {
                         "Options": Options.bypassAll,
                         "Description": "Removes a bypassed user, role or channel"
                     },
-                    "AutoMod AntiSpam Bypass clear": {
+                    "AutoMod AntiSpam Bypass Clear": {
                         "Options": "",
                         "Description": "Clears the bypass"
                     },
